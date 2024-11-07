@@ -3,6 +3,7 @@ body {
     background: rgb(87, 151, 116);
     margin: 0px;
     font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
     padding: 20px;
     font-size: 32px;
 }
-section{
+.chamada {
     background: rgb(0, 112, 119);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -33,13 +34,25 @@ p{
 img {
     height: 230px;
 }
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
+
+ .categoria-video {
+    display: flex ;
+    overflow-x: auto ;
     gap: 10px;
 }
 
-.categoria-videos {
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img:hover {
+    
+    opacity 1.0;
+
+}
+
+.categoria h2 {
+    color: white;
 }
