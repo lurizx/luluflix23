@@ -19,12 +19,12 @@ header {
     justify-content: center;
 }
 
-.chamada-texto{
+.chamada-texto {
 
     margin-right: 5%;
 }
 h1 { 
-    font-size: 50px;
+    font-size: 20px;
 }
 
 p{
@@ -32,12 +32,12 @@ p{
 }
 
 img {
-    height: 230px;
+    height: 200px;
 }
 
  .categoria-video {
-    display: flex ;
-    overflow-x: auto ;
+    display: flex;
+    overflow-x: auto;
     gap: 10px;
 }
 
@@ -47,14 +47,14 @@ img {
     margin-top: 50px;
 }
 
-.categoria-videos img {
+.categoria-video img {
     opacity: 0.5;
     height: 200px;
 }
 
-.categoria-videos img:hover {
+.categoria-video img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid darkgoldenrod;
 }
 
 .categoria h2 {
